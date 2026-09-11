@@ -17,5 +17,8 @@ module "vnet" {
     "prod-subnet-02" = {
       address_prefix = "10.0.2.0/24"
     }
+    "prod-subnet-03" = {
+      address_prefix = "10.0.3.0/24"
+    }
   }
 }
